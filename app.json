@@ -1,0 +1,14 @@
+{
+
+  "name": "Heroku-lavalink",
+  "description": "Configures a lavalink server on heroku",
+  "repository": "https://github.com/cyraxxop/lavalink-server",
+  "logo": "https://i.imgur.com/5W5kjr5.png",
+
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+
+}

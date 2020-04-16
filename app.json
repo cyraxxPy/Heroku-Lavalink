@@ -1,13 +1,14 @@
 {
 
   "name": "Heroku-lavalink",
-  "description": "Configures a lavalink server on heroku",
-  "repository": "https://github.com/cyraxxop/lavalink-server",
-  "logo": "https://i.imgur.com/5W5kjr5.png",
+  "description": "Lavalink server configuration on heroku",
+  "repository": "https://github.com/cyraxxop/Heroku-Lavalink",
+  "logo": "https://avatars3.githubusercontent.com/u/47707577?s=400&u=fcaf05c2fbf034c814691754ab07f4bd7cec593d&v=4",
 
   "buildpacks": [
     {
-      "url": "heroku/java"
+      "url": "heroku/java",
+      "url": " heroku/python"
     }
   ]
 

@@ -23,17 +23,17 @@ class lavalinkserver:
         except BaseException as exc:
             print(f"[ERROR] Error changing port AND password ... Info: {exc}")
         else:
-            print("[INFO] Success when changing port and password...")
+            print("[INFO] Successfully changed Port and Password...")
 
     def download(self):
-        print("[INFO] Lowering the lavalink ...")
+        print("[INFO] Downloading Latest Lavalink ...")
         try:
             system(self.download_command)
         except BaseException as exc:
-            print(f"[ERROR] Error downloading lavalink... Info: {exc}")
+            print(f"[ERROR] Error downloading Lavalink... Info: {exc}")
 
         else:
-            print("[INFO] Success in downloading lavalink...")
+            print("[INFO] Success in downloading Lavalink...")
     
     def run(self):
         self.download()
@@ -42,7 +42,7 @@ class lavalinkserver:
         try:
             system(self.run_command)
         except BaseException as exc:
-            print(f"[ERROR] Failed to start lavalink... Info: {exc}")
+            print(f"[ERROR] Failed to start Lavalink server... Info: {exc}")
 
 if __name__ == "__main__":
    lavalinkserver().run()

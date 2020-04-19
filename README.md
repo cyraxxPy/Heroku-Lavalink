@@ -42,6 +42,7 @@
 * Do not forget to edit config file (application.yml)
 * Do not forget to set your password (`PASSWORD` environment variable)
 * Do not change address and port in (application.yml)
+* This repo means for students who cant pay and want to work or test lavalink. You might face music lags as heroku doesnt have high cpu specs.
 
 # Connecting
 * Lavalink's port will be always 80, DO NOT edit port in application.yml!

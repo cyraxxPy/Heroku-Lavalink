@@ -90,5 +90,5 @@
 
 ### Contact
 * [Join Discord](https://discord.gg/HKtQmtj)
-* [Instagram](https://www.instagram.com/cyraxx_pubg)
-* [Website](https://cyraxx.glitch.me)
+* [Instagram](https://www.instagram.com/cyraxx.py)
+* [Website](https://cyraxx.gitbook.io/cyraxx)
